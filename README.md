@@ -47,7 +47,7 @@ Or just add/update the following files in your code as follows:
 @tailwind utilities;
 ```
 
-nuxt.config.js
+nuxt.config.ts
 
 ```bash
 export default defineNuxtConfig({
