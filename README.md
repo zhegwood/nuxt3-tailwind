@@ -37,7 +37,7 @@ or
 yarn dev
 ```
 
-Or just add/update the following files in your code as follows:
+Or just add/update the following files in your code:
 
 /assets/css/main.css
 
