@@ -36,3 +36,66 @@ or
 
 yarn dev
 ```
+
+Or just add/update the following files in your code as follows:
+
+nuxt.config.js
+
+```bash
+export default defineNuxtConfig({
+  css: ["@/assets/css/main.css"],
+  build: {
+    postcss: {
+      postcssOptions: require("./postcss.config.js"),
+    },
+  },
+});
+```
+
+package.json
+
+```bash
+  "devDependencies": {
+    ...
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.0"
+  }
+```
+
+postcss.config.js
+
+```bash
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+```
+
+tailwind.config.js
+
+```bash
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  mode: "jit",
+  content: [
+    "./assets/**/*.css",
+    "./components/*.{vue,js}",
+    "./components/**/*.{vue,js}",
+    "./pages/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./*.{vue,js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
+```
