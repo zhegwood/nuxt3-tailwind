@@ -39,11 +39,19 @@ yarn dev
 
 Or just add/update the following files in your code as follows:
 
+/assets/css/main/css
+
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 nuxt.config.js
 
 ```bash
 export default defineNuxtConfig({
-  css: ["@/assets/css/main.css"],
+  css: ["@/assets/css/main.css"], //make sure this file exists or matches what you currently have
   build: {
     postcss: {
       postcssOptions: require("./postcss.config.js"),
