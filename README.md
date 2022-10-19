@@ -39,7 +39,7 @@ yarn dev
 
 Or just add/update the following files in your code as follows:
 
-/assets/css/main/css
+/assets/css/main.css
 
 ```bash
 @tailwind base;
