@@ -4,7 +4,11 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
 
-Make sure to install the dependencies:
+Clone/Fork this repo.
+
+CD to the repo.
+
+Install the dependencies:
 
 ```bash
 # yarn
@@ -31,24 +35,6 @@ npm run dev
 or
 
 yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-
-or
-
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
