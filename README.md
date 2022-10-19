@@ -10,8 +10,12 @@ Make sure to install the dependencies:
 # yarn
 yarn install
 
+or
+
 # npm
 npm install
+
+or
 
 # pnpm
 pnpm install --shamefully-hoist
@@ -23,6 +27,10 @@ Start the development server on http://localhost:3000
 
 ```bash
 npm run dev
+
+or
+
+yarn dev
 ```
 
 ## Production
@@ -31,6 +39,10 @@ Build the application for production:
 
 ```bash
 npm run build
+
+or
+
+yarn build
 ```
 
 Locally preview production build:
