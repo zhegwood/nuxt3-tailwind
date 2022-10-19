@@ -1,6 +1,6 @@
 # Nuxt 3 / Tailwind starter
 
-Set up a Nuxt application via the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Set up a Nuxt application via the [nuxt 3 documentation](https://v3.nuxtjs.org).
 
 ## Setup
 
@@ -36,5 +36,3 @@ or
 
 yarn dev
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
